@@ -20,9 +20,6 @@ The agent is built using Google's Agent Development Kit (ADK) and utilizes Googl
 
 1.  **Environment Variables:** Configure the necessary environment variables in the [`agent_tala/.env`](agent_tala/.env) file. Key variables include:
     *   `GOOGLE_API_KEY`: Your Google API key for accessing Gemini models.
-    *   `DATABASE_URL`: Connection string for the PostgreSQL database.
-    *   `SMS_KEY`, `SMS_URL`, `PHONE_NUMBER`: Configuration for SMS notifications (if used).
-    *   Other parameters like `SECRET_KEY`, `SIMILARITY_THRESHOLD`, etc.
 
 2.  **Dependencies:** Ensure you have the required Python libraries installed, including `google-adk`, `google-generativeai`, etc. (A `requirements.txt` file would typically list these).
 
